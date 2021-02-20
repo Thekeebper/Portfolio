@@ -20,6 +20,10 @@
   flex-direction: column;
   align-items: center;
   min-height: 750px;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 .content_main {
   /* display: flex;

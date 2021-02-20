@@ -659,11 +659,12 @@ function Home() {
                       PHPMYADMIN <span> (ดี)</span>
                     </li>
                     <li>
-                      Mysql <span>(ปานกลาง)</span>
-                    </li>
-                    <li>
                       firebase <span>(ดี)</span>
                     </li>
+                    <li>
+                      Mysql <span>(ปานกลาง)</span>
+                    </li>
+
                     <li>
                       mongodb <span>(ปานกลาง)</span>
                     </li>
