@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Home.css";
 import Social from "./Contact";
-import Imag from "../img/3.jpg";
+import Imag from "../img/5.jpg";
 import ReactTypingEffect from "react-typing-effect";
 
 import Gsap from "gsap";
@@ -75,11 +75,15 @@ function Home() {
                     <div className="history_detail">
                       <p>ชื่อ นายธีรภัทร์ สุราภา ชื่อเล่น ท้อป อายุ 22 ปี</p>
                       <p>Email: tkp.programmer7@gmail.com</p>
-                      <p>
+                      <p style={{ color: "rgb(232, 127, 127)" }}>
                         ข้อมูล PDF :
                         <a
-                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-tkc.appspot.com/o/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%98%E0%B8%B5%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%B2.pdf?alt=media&token=78d3d938-df0f-4812-9d21-d68a23ede8fc"
-                          style={{ marginLeft: 15, color: "black" }}
+                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%98%E0%B8%B5%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%B2.pdf?alt=media&token=bbcf9498-ac2c-4ff3-924b-514e7c7bb503"
+                          style={{
+                            marginLeft: 15,
+                            color: "black",
+                            color: "rgb(232, 127, 127)",
+                          }}
                         >
                           คลิก !
                         </a>
@@ -152,11 +156,11 @@ function Home() {
       {toggle3 ? (
         <>
           <section className="Home2">
-            <div className="content_main">
+            <div className="content_main" id="project_link">
               <h2>โปรเจคที่เคยได้ทำระหว่างเรียน</h2>
             </div>
 
-            <div className="group_content" id="project_link">
+            <div className="group_content_1">
               <div className="content2">
                 <div className="project">
                   <h3>ระบบ แชทผ่าน LAN</h3>
@@ -386,6 +390,15 @@ function Home() {
                     ซึ่งการทำงานหลักๆเกี่ยวกับ การสมัครงานวิ่ง
                     และการจัดงานวิ่งต่างๆด้วยฐานข้อมูล แบบ Realtime
                   </p>
+                  <p style={{ color: "rgb(232, 127, 127)" }}>
+                    ตัวอย่างระบบ :{" "}
+                    <a
+                      href="https://runrun-f6a73.firebaseapp.com/?fbclid=IwAR1uVlN9SLzreC8ZIW9vzkxEZAljb8SqEhvgTLVYQYFP--7nAS_2GgU9rsE"
+                      style={{ marginLeft: 15, color: "rgb(232, 127, 127)" }}
+                    >
+                      คลิก !
+                    </a>
+                  </p>
                   <span
                     style={{
                       marginRight: 30,
@@ -529,12 +542,12 @@ function Home() {
 
       {toggle4 ? (
         <section className="Home2">
-          <div className="content_main">
+          <div className="content_main" id="project_link_skill">
             {" "}
             <h2>ทักษะการเขียนโปรแกรม</h2>
           </div>
 
-          <div className="group_content" id="project_link_skill">
+          <div className="group_content">
             <div className="content2">
               <div className="div">
                 <div className="project">
