@@ -583,6 +583,9 @@ function Home() {
                     <li>
                       css<span>(ดี)</span>
                     </li>
+                    <li>
+                      javascript <span>(ดี)</span>
+                    </li>
                   </ul>
                 </div>
               </div>
