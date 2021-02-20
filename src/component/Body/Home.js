@@ -76,7 +76,7 @@ function Home() {
                       <p>ชื่อ นายธีรภัทร์ สุราภา ชื่อเล่น ท้อป อายุ 22 ปี</p>
                       <p>Email: tkp.programmer7@gmail.com</p>
                       <p style={{ color: "rgb(232, 127, 127)" }}>
-                        ข้อมูล PDF :
+                        ข้อมูลส่วนตัว PDF :
                         <a
                           href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%98%E0%B8%B5%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%B2.pdf?alt=media&token=bbcf9498-ac2c-4ff3-924b-514e7c7bb503"
                           style={{
@@ -231,7 +231,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>BOOTSTRAP 4</span>
                 </div>
@@ -279,7 +279,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>BOOTSTRAP 5</span>
                   <br />
@@ -350,7 +350,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>MATERIAL-UI</span>
                   <br />
@@ -430,7 +430,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>BOOTSTRAP 5</span>
                   <br />
@@ -480,7 +480,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>BOOTSTRAP</span>
                 </div>
@@ -517,7 +517,7 @@ function Home() {
                       textDecoration: "underline",
                     }}
                   >
-                    framework ที่ใช้
+                    Framework ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>BOOTSTRAP 5</span>
                   <span style={{ marginRight: 20 }}>LARAVEL 7.x</span>
@@ -533,6 +533,17 @@ function Home() {
                     ฐานข้อมูล ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>MYSQL</span>
+                  <br />
+                  <span
+                    style={{
+                      marginRight: 30,
+                      fontWeight: "bold",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    Payment gateway ที่ใช้
+                  </span>
+                  <span style={{ marginRight: 20 }}>PAYPAL</span>
                 </div>
               </div>
             </div>
