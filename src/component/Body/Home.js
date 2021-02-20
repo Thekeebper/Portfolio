@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Home.css";
-import Social from "./Contact";
+
 import Imag from "../img/5.jpg";
 import ReactTypingEffect from "react-typing-effect";
 
@@ -75,6 +75,15 @@ function Home() {
                     <div className="history_detail">
                       <p>ชื่อ นายธีรภัทร์ สุราภา ชื่อเล่น ท้อป อายุ 22 ปี</p>
                       <p>Email: tkp.programmer7@gmail.com</p>
+                      <section className="contact">
+                        <p>ข้อมูลติดต่อเพิ่มเติม</p>
+                        <a href="https://www.instagram.com/_tkp.top_/">
+                          <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a href="https://www.facebook.com/thiraphat.surapa/">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                      </section>
                       <p style={{ color: "rgb(232, 127, 127)" }}>
                         ข้อมูลส่วนตัว PDF :
                         <a
@@ -151,7 +160,6 @@ function Home() {
             <div></div>
           )}
         </div>
-        <Social />
       </section>
       {toggle3 ? (
         <>
@@ -166,7 +174,10 @@ function Home() {
                   <h3>ระบบ แชทผ่าน LAN</h3>
                 </div>
                 <div className="project_detail2">
-                  <p>เป็นระบบส่งข้อความผ่านระบบ LAN โดยใช้ IP address</p>
+                  <p>
+                    เป็นระบบส่งข้อความผ่านระบบ LAN โดยใช้ IP address
+                    ในการติดต่อสื่อสาร และสร้าง UI เพื่อใช้งาน
+                  </p>
                   <span
                     style={{
                       marginRight: 30,

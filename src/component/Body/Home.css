@@ -87,6 +87,7 @@
 }
 .customtyping {
   width: 600px;
+  margin-top: 20px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 8px;
   display: flex;
@@ -171,17 +172,18 @@
   height: 45px;
   font-size: 15px;
   letter-spacing: 2.5px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000;
   background-color: #fff;
   border: none;
   border-radius: 45px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
   margin-top: 20px;
   padding: 10px;
+  margin-bottom: -10px;
 }
 
 .submit:hover {
@@ -193,7 +195,7 @@
 
 /* 12 */
 .btn-detail {
-  margin-top: 10px;
+  margin-top: -15px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -290,164 +292,24 @@
   transform: translateY(-9px);
   box-shadow: 0px 15px 20px rgb(214, 214, 214);
 }
-
-@media screen and (max-width: 320px) {
-  .Home {
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .customtyping {
-    width: 300px;
-  }
-  .typingeffect {
-    font-size: 20px;
-  }
-  .typing1 {
-    width: 300px;
-  }
-  .typing1.active {
-    margin-top: 100px;
-  }
-  .timeline {
-    margin-top: 20px;
-  }
-  .btn-detail {
-    padding-right: 60px;
-  }
-  .Profilepic {
-    border-radius: 20%;
-    width: 300px;
-    margin: 25px;
-  }
-  .history_detail {
-    line-height: normal;
-  }
-  .timeline .history {
-    letter-spacing: normal;
-  }
-  .submit {
-    letter-spacing: normal;
-  }
-  .btn-detail {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .custom-btn {
-    letter-spacing: normal;
-    margin: 15px;
-  }
+.contact {
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
 }
-@media screen and (max-width: 375px) {
-  .Home {
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .customtyping {
-    width: 300px;
-  }
-  .typingeffect {
-    font-size: 20px;
-  }
-  .typing1 {
-    width: 300px;
-  }
-  .typing1.active {
-    margin-top: 100px;
-  }
-  .timeline {
-    margin-top: 20px;
-  }
-  .btn-detail {
-    padding-right: 60px;
-  }
-  .Profilepic {
-    border-radius: 20%;
-    width: 300px;
-    margin: 25px;
-  }
-  .history_detail {
-    line-height: normal;
-  }
-  .timeline .history {
-    letter-spacing: normal;
-  }
-  .submit {
-    letter-spacing: normal;
-  }
-  .btn-detail {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .custom-btn {
-    letter-spacing: normal;
-    margin: 15px;
-  }
+.contact i {
+  padding-right: 20px;
+  font-size: 35px;
+  color: #9a9b9c;
 }
-@media screen and (max-width: 425px) {
-  .Home {
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .customtyping {
-    width: 300px;
-  }
-  .typingeffect {
-    font-size: 20px;
-  }
-  .typing1 {
-    width: 300px;
-  }
-  .typing1.active {
-    margin-top: 100px;
-  }
-  .timeline {
-    margin-top: 20px;
-  }
-  .btn-detail {
-    padding-right: 60px;
-  }
-  .Profilepic {
-    border-radius: 20%;
-    width: 300px;
-    margin: 25px;
-  }
-  .history_detail {
-    line-height: normal;
-  }
-  .timeline .history {
-    letter-spacing: normal;
-  }
-  .submit {
-    letter-spacing: normal;
-  }
-  .btn-detail {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .custom-btn {
-    letter-spacing: normal;
-    margin: 15px;
-  }
+.contact i:hover {
+  color: #333;
 }
-@media screen and (max-width: 768px) {
+.contact p {
+  margin: 5px 20px;
+  font-size: 17px;
+}
+@media screen and (max-width: 1024px) {
   .Home {
     margin-left: 0px;
     display: flex;
