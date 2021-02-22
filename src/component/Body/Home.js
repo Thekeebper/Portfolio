@@ -716,6 +716,9 @@ function Home() {
                     <li>
                       HEROKU <span>(ปานกลาง)</span>
                     </li>
+                    <li>
+                      GSAP <span>(ปานกลาง)</span>
+                    </li>
                   </ul>
                 </div>
               </div>
