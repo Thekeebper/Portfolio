@@ -74,7 +74,7 @@ function Home() {
                     </div>
                     <div className="history_detail">
                       <p>ชื่อ นายธีรภัทร์ สุราภา ชื่อเล่น ท้อป อายุ 22 ปี</p>
-                      <p>Email: tkp.programmer7@gmail.com</p>
+                      <p>Email: thiraphat.surapa.top@gmail.com</p>
                       <section className="contact">
                         <p>ข้อมูลติดต่อเพิ่มเติม</p>
                         <a href="https://www.instagram.com/_tkp.top_/">
@@ -87,7 +87,7 @@ function Home() {
                       <p style={{ color: "rgb(232, 127, 127)" }}>
                         ข้อมูลส่วนตัว PDF :
                         <a
-                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1.pdf?alt=media&token=6fdb8d83-b013-4959-a286-f96423da7026"
+                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1%20Resume%20.pdf?alt=media&token=d510fb38-e383-4efc-ab4f-de178488f350"
                           style={{
                             marginLeft: 15,
                             color: "black",
