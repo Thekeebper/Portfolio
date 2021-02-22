@@ -493,7 +493,7 @@ function Home() {
                   >
                     Framework ที่ใช้
                   </span>
-                  <span style={{ marginRight: 20 }}>BOOTSTRAP</span>
+                  <span style={{ marginRight: 20 }}>BOOTSTRAP 4</span>
                 </div>
               </div>
 
