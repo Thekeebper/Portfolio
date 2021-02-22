@@ -87,7 +87,7 @@ function Home() {
                       <p style={{ color: "rgb(232, 127, 127)" }}>
                         ข้อมูลส่วนตัว PDF :
                         <a
-                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%98%E0%B8%B5%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%B2.pdf?alt=media&token=bbcf9498-ac2c-4ff3-924b-514e7c7bb503"
+                          href="https://firebasestorage.googleapis.com/v0/b/portfolio-thiraphat-surapa.appspot.com/o/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1.pdf?alt=media&token=6fdb8d83-b013-4959-a286-f96423da7026"
                           style={{
                             marginLeft: 15,
                             color: "black",
