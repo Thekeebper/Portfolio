@@ -171,85 +171,6 @@ function Home() {
             <div className="group_content_1">
               <div className="content2">
                 <div className="project">
-                  <h3>ระบบ แชทผ่าน LAN</h3>
-                </div>
-                <div className="project_detail2">
-                  <p>
-                    เป็นระบบส่งข้อความผ่านระบบ LAN โดยใช้ IP address
-                    ในการติดต่อสื่อสาร และสร้าง UI เพื่อใช้งาน
-                  </p>
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    ภาษา ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>JAVA</span>
-                </div>
-              </div>
-
-              <div className="content2">
-                <div className="project">
-                  <h3>ระบบ จำลองรถยนต์ 3 มิติ</h3>
-                </div>
-                <div className="project_detail2">
-                  <p>
-                    เป็นระบบสร้าง ภาพ 3 มิติ สำหรับการจำลองส่วนประกอบของรถ
-                    และการเคลื่อนที่ของสภาพแวดล้อมกับตัวรถยนต์
-                  </p>
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    ภาษา ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>C</span>
-                </div>
-              </div>
-
-              <div className="content2">
-                <div className="project">
-                  <h3>ระบบ Stock สินค้า</h3>
-                </div>
-                <div className="project_detail2">
-                  <p>
-                    เป็นระบบที่อยู่ในรูปแบบ web application
-                    ซึ่งการทำงานหลักๆเกี่ยวกับ การจัดเก็บ ,ลบ ,แก้ไข สินค้า
-                  </p>
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    ภาษา ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>HTML</span>
-                  <span style={{ marginRight: 20 }}>CSS</span>
-                  <span style={{ marginRight: 20 }}>JAVASCRIPT</span>
-                  <br />
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Framework ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>BOOTSTRAP 4</span>
-                </div>
-              </div>
-
-              <div className="content2">
-                <div className="project">
                   <h3>ระบบ Stock สินค้า</h3>
                 </div>
                 <div className="project_detail2">
@@ -455,45 +376,6 @@ function Home() {
                     ฐานข้อมูล ที่ใช้
                   </span>
                   <span style={{ marginRight: 20 }}>FIREBASE CLOUD</span>
-                </div>
-              </div>
-
-              <div className="content2">
-                <div className="project">
-                  <h3>
-                    ระบบ คำนวณหาปริมาณการสั่งซื้อและการสั่งผลิตที่ประหยัดที่สุด
-                    โดยใช้ตัวแบบ Economic Order Quantity Model (EOQ Model)
-                  </h3>
-                </div>
-                <div className="project_detail2">
-                  <p>
-                    เป็นระบบที่อยู่ในรูปแบบ web application
-                    ซึ่งการทำงานหลักๆเกี่ยวกับ
-                    การคำนวนการสั่งซื้อสินค้าและการผลิตที่ประหยัดที่สุดโดยรับข้อมูลจากผู้ใช้งานมาคำนวน
-                  </p>
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    ภาษา ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>HTML</span>
-                  <span style={{ marginRight: 20 }}>CSS</span>
-                  <span style={{ marginRight: 20 }}>JAVASCRIPT</span>
-                  <br />
-                  <span
-                    style={{
-                      marginRight: 30,
-                      fontWeight: "bold",
-                      textDecoration: "underline",
-                    }}
-                  >
-                    Framework ที่ใช้
-                  </span>
-                  <span style={{ marginRight: 20 }}>BOOTSTRAP 4</span>
                 </div>
               </div>
 
